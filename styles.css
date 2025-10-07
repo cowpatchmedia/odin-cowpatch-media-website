@@ -113,3 +113,7 @@ and bottom email. */
     flex-grow: 1;
     max-height: 500px;
  }
+
+ .middle-pictures {
+    display: flex;
+ }
