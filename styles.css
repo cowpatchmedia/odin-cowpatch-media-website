@@ -24,7 +24,8 @@ left side and the sidebar (internal links) on the left side. */
     display: flex;
     gap: 24px; 
     margin: 0;
-    padding: 0;
+    /* padding pushes the hero text and dahlia flower away from header. */
+    padding: 0 0 50px 0;
     font-size: 16px;
 }
 
@@ -94,4 +95,5 @@ and bottom email.
  .upper-text-words {
     display: flex;
     flex-direction: column;
+    padding: 10px 10px 10px 10px;
  }
