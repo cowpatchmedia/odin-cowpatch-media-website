@@ -60,23 +60,24 @@ and bottom email.
  /* made the .upper-text container a flexbox so that the image and write can be side
  by side. */
  .upper-text {
-    padding: 48px 16px;
     display: flex;
-    justify-content: space-between;
     gap: 100px;
  }
 
+ /* format upper hero text. */
  .upper-text-hero {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
  }
 
+ /* format upper hero text in paragraph. */
  .upper-text-paragraph{
     font-size: 18px;
     color: #e5e7eb;
  }
 
+ /* format button */
  button{
     background-color: #3882f6;
     color: #F9FAF8
