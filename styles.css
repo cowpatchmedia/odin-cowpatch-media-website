@@ -18,6 +18,7 @@ left side and the sidebar (internal links) on the left side. */
     left and right. Third number pushes hero text down. */
     padding: 16px 48px 50px;
     font-size: 24px;
+    align-items: center;
 }
 
 /* the sidebar will be the three internal links. */
@@ -53,7 +54,6 @@ and bottom email.
  */
 
  .main-container {
-    display: flex;
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
  }
@@ -62,7 +62,8 @@ and bottom email.
  by side. */
  .upper-text {
     display: flex;
-    gap: 100px;
+    gap: 24px;
+    padding: 0 48px 75px;
  }
 
  /* format upper hero text. */
@@ -82,13 +83,14 @@ and bottom email.
  button{
     background-color: #3882f6;
     color: #F9FAF8;
+    /* set width of button so it appears correctly. */
     width: 100px;
  }
 
  .signup-button {
     border: none;
+    /* border radius slightly curves edges of the button. */
     border-radius: 5px;
-    padding: 4px 24px;
  }
 
  /* make hero text a flexbox so that it can be formatted properly. */
