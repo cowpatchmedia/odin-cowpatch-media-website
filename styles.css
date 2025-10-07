@@ -14,7 +14,9 @@ left side and the sidebar (internal links) on the left side. */
     font-weight: 900;
     color: #F9FAF8;
     justify-content: space-between;
-    padding: 16px 48px 0px;
+    /* first number moves header away from top of the screen. second number is for
+    left and right. Third number pushes hero text down. */
+    padding: 16px 48px 50px;
     font-size: 24px;
 }
 
@@ -24,8 +26,6 @@ left side and the sidebar (internal links) on the left side. */
     display: flex;
     gap: 24px; 
     margin: 0;
-    /* padding pushes the hero text and dahlia flower away from header. */
-    padding: 0 0 50px 0;
     font-size: 16px;
 }
 
