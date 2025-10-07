@@ -80,11 +80,18 @@ and bottom email.
  /* format button */
  button{
     background-color: #3882f6;
-    color: #F9FAF8
+    color: #F9FAF8;
+    width: 100px;
  }
 
  .signup-button {
     border: none;
     border-radius: 5px;
     padding: 4px 24px;
+ }
+
+ /* make hero text a flexbox so that it can be formatted properly. */
+ .upper-text-words {
+    display: flex;
+    flex-direction: column;
  }
