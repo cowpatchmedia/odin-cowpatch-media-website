@@ -43,3 +43,12 @@ a:hover,
 a:focus {
     color:pink;
 }
+
+/* make the main container into a flexbox so that it can be split into
+the four different sections (upper-text, middle-pictures, middle-quote,
+and bottom email.
+ */
+
+ .main-container {
+    display: flex;
+ }
