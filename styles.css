@@ -2,6 +2,9 @@
 body{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -19,6 +22,7 @@ left side and the sidebar (internal links) on the left side. */
     padding: 16px 100px 50px;
     font-size: 24px;
     align-items: center;
+    flex-shrink: 0;
 }
 
 /* the sidebar will be the three internal links. */
@@ -56,6 +60,7 @@ and bottom email. */
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
  }
 
  /* made the .upper-text container a flexbox so that the image and write can be side
@@ -116,4 +121,41 @@ and bottom email. */
 
  .middle-pictures {
     display: flex;
+    justify-content: space-around;
+    padding: 0px 100px 0px;
+    align-items: center;
  }
+
+ .middle-links-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 50px 0px 50px;
+ }
+
+ .middle-links-text-parent{
+    display: flex;
+    justify-content: center;
+ }
+
+.spotify-image,
+.github-image,
+.instagram-image,
+.soundcloud-image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.spotify-image,
+.github-image,
+.instagram-image,
+.soundcloud-image {
+    width: 100px;
+    gap: 16px;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 160px;
+}
