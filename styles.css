@@ -57,9 +57,13 @@ and bottom email.
     font-family: 'Roboto', sans-serif;
  }
 
+ /* made the .upper-text container a flexbox so that the image and write can be side
+ by side. */
  .upper-text {
     padding: 48px 16px;
-    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
  }
 
  .upper-text-hero {
