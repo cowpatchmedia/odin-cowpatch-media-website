@@ -15,6 +15,7 @@ left side and the sidebar (internal links) on the left side. */
     color: #F9FAF8;
     justify-content: space-between;
     padding: 16px 48px 0px;
+    font-size: 24px;
 }
 
 /* the sidebar will be the three internal links. */
@@ -24,6 +25,7 @@ left side and the sidebar (internal links) on the left side. */
     gap: 24px; 
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 /* Remove the default styling for unordered lists. */
@@ -51,4 +53,22 @@ and bottom email.
 
  .main-container {
     display: flex;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .upper-text {
+    padding: 48px 16px;
+    width: 400px;
+ }
+
+ .upper-text-hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+ }
+
+ .upper-text-paragraph{
+    font-size: 18px;
+    color: #e5e7eb;
  }
