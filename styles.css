@@ -1,0 +1,35 @@
+/* Making the header a flex container with the company name on the
+left side and the sidebar (internal links) on the left side. */
+.header {
+    display: flex;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+/* the sidebar will be the three internal links. */
+.sidebar ul {
+    display: flex;
+    gap: 24px; 
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* this is added so the link still changes color when a user hovers
+the cursor over it. Change pink. */
+a:hover,
+a:focus {
+    color:pink;
+}
