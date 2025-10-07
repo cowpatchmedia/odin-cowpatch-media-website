@@ -72,3 +72,14 @@ and bottom email.
     font-size: 18px;
     color: #e5e7eb;
  }
+
+ button{
+    background-color: #3882f6;
+    color: #F9FAF8
+ }
+
+ .signup-button {
+    border: none;
+    border-radius: 5px;
+    padding: 4px 24px;
+ }
