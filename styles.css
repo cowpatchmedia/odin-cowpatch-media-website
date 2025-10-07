@@ -16,7 +16,7 @@ left side and the sidebar (internal links) on the left side. */
     justify-content: space-between;
     /* first number moves header away from top of the screen. second number is for
     left and right. Third number pushes hero text down. */
-    padding: 16px 48px 50px;
+    padding: 16px 100px 50px;
     font-size: 24px;
     align-items: center;
 }
@@ -50,20 +50,20 @@ a:focus {
 
 /* make the main container into a flexbox so that it can be split into
 the four different sections (upper-text, middle-pictures, middle-quote,
-and bottom email.
- */
+and bottom email. */
 
  .main-container {
-    background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
  }
 
  /* made the .upper-text container a flexbox so that the image and write can be side
  by side. */
  .upper-text {
+    background-color: #1f2937;
     display: flex;
     gap: 24px;
-    padding: 0 48px 75px;
+    padding: 0 100px 75px;
+    align-items: center;
  }
 
  /* format upper hero text. */
@@ -71,6 +71,7 @@ and bottom email.
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
  }
 
  /* format upper hero text in paragraph. */
@@ -97,5 +98,16 @@ and bottom email.
  .upper-text-words {
     display: flex;
     flex-direction: column;
-    padding: 10px 10px 10px 10px;
+    gap: 16px;
+    flex-grow: 1;
+ }
+
+ /* format image so that it is responsive and stetches to fill space provided by the
+ parent container. */
+ .upper-text-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-grow: 1;
+    max-height: 500px;
  }
