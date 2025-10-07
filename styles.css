@@ -1,3 +1,10 @@
+/* Remove the default styling from the body element. */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Making the header a flex container with the company name on the
 left side and the sidebar (internal links) on the left side. */
 .header {
@@ -7,10 +14,11 @@ left side and the sidebar (internal links) on the left side. */
     font-weight: 900;
     color: #F9FAF8;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 48px 0px;
 }
 
 /* the sidebar will be the three internal links. */
+/* added this code to directly change the styling of the list element. */
 .sidebar ul {
     display: flex;
     gap: 24px; 
@@ -18,10 +26,12 @@ left side and the sidebar (internal links) on the left side. */
     padding: 0;
 }
 
+/* Remove the default styling for unordered lists. */
 ul {
     list-style-type: none;
 }
 
+/* Remove the default styling for links. */
 a {
     text-decoration: none;
     color: inherit;
