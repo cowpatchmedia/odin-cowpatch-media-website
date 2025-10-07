@@ -54,6 +54,8 @@ and bottom email. */
 
  .main-container {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
  }
 
  /* made the .upper-text container a flexbox so that the image and write can be side
