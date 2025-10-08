@@ -145,17 +145,33 @@ and bottom email. */
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.spotify-image,
-.github-image,
-.instagram-image,
-.soundcloud-image {
     width: 100px;
     gap: 16px;
     font-style: italic;
+    padding-bottom: 50px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 32px 0px 16px;
+}
+
+.quote-text{
+    width: 400px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-attribution {
+ padding-left: 256px;
+ font-weight: 900;
 }
 
 .footer {
-    margin-top: 160px;
+    margin-top: 24px;
 }
