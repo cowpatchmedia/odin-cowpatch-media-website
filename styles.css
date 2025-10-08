@@ -177,3 +177,11 @@ and bottom email. */
 .footer {
     margin-top: 24px;
 }
+
+.email-container{
+   display: flex;
+   border: #F9FAF8;
+   border-width: 500px;
+   background-color: #3882f6;
+   color: #F9FAF8;
+}
