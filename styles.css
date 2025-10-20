@@ -207,5 +207,12 @@ and bottom email. */
  }
 
  .footer {
-    margin-top: 24px;
+   margin-top: 24px;
+   text-align: center;
+   background-color: #1f2937;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #e5e7eb;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
 }
