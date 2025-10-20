@@ -174,14 +174,38 @@ and bottom email. */
  font-weight: 900;
 }
 
-.footer {
-    margin-top: 24px;
-}
-
 .email-container{
    display: flex;
-   border: #F9FAF8;
-   border-width: 500px;
+   border: 50px solid #F9FAF8;
+   justify-content: center;
+   }
+
+.email-button{
+    border: solid;
+    /* border radius slightly curves edges of the button. */
+    border-radius: 5px;
+ }
+
+ .email-box{
+   border-radius: 5px;
    background-color: #3882f6;
    color: #F9FAF8;
+   padding: 50px 150px;
+   display: flex;
+   gap: 100px;
+ }
+
+ .email-header{
+   font-size: 24px;
+   font-weight: 900;
+   color:#F9FAF8
+ }
+
+ .email-subtext{
+   font-size: 18px;
+   color: #e5e7eb;
+ }
+
+ .footer {
+    margin-top: 24px;
 }
