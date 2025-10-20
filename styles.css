@@ -115,7 +115,6 @@ and bottom email. */
     width: 100%;
     height: auto;
     display: block;
-    flex-grow: 1;
     max-height: 500px;
  }
 
