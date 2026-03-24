@@ -15,7 +15,7 @@ left side and the sidebar (internal links) on the left side. */
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #E8E1D1;
     justify-content: space-between;
     /* first number moves header away from top of the screen. second number is for
     left and right. Third number pushes hero text down. */
@@ -49,7 +49,7 @@ a {
 the cursor over it. Change pink. */
 a:hover,
 a:focus {
-    color:pink;
+    color:#C5A059
 }
 
 /* make the main container into a flexbox so that it can be split into
@@ -77,28 +77,8 @@ and bottom email. */
  .upper-text-hero {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
+    color: #E8E1D1;
     margin: 0px;
- }
-
- /* format upper hero text in paragraph. */
- .upper-text-paragraph{
-    font-size: 18px;
-    color: #e5e7eb;
- }
-
- /* format button */
- button{
-    background-color: #3882f6;
-    color: #F9FAF8;
-    /* set width of button so it appears correctly. */
-    width: 100px;
- }
-
- .signup-button {
-    border: none;
-    /* border radius slightly curves edges of the button. */
-    border-radius: 5px;
  }
 
  /* make hero text a flexbox so that it can be formatted properly. */
@@ -123,6 +103,7 @@ and bottom email. */
     justify-content: space-around;
     padding: 0px 100px 0px;
     align-items: center;
+   background-color: #A69C8A;
  }
 
  .middle-links-text {
@@ -135,6 +116,7 @@ and bottom email. */
  .middle-links-text-parent{
     display: flex;
     justify-content: center;
+    background-color: #A69C8A;
  }
 
 .spotify-image,
@@ -150,60 +132,6 @@ and bottom email. */
     padding-bottom: 50px;
 }
 
-.quote-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #e5e7eb;
-    padding: 32px 0px 16px;
-}
-
-.quote-text{
-    font-style: italic;
-    font-weight: 300;
-    color: #1f2937;
-    font-size: 36px;
-    width: 600px;
-}
-
-.quote-attribution {
- padding-left: 406px;
- padding-top: 16px;
- font-weight: 900;
-}
-
-.email-container{
-   display: flex;
-   border: 50px solid #F9FAF8;
-   justify-content: center;
-   }
-
-.email-button{
-    border: solid;
-    /* border radius slightly curves edges of the button. */
-    border-radius: 5px;
- }
-
- .email-box{
-   border-radius: 5px;
-   background-color: #3882f6;
-   color: #F9FAF8;
-   padding: 50px 150px;
-   display: flex;
-   gap: 100px;
- }
-
- .email-header{
-   font-size: 24px;
-   font-weight: 900;
-   color:#F9FAF8
- }
-
- .email-subtext{
-   font-size: 18px;
-   color: #e5e7eb;
- }
 
  .footer {
    margin-top: 24px;
@@ -211,7 +139,7 @@ and bottom email. */
    background-color: #1f2937;
    padding-top: 20px;
    padding-bottom: 20px;
-   color: #e5e7eb;
+   color: #E8E1D1;
    font-family: 'Roboto', sans-serif;
    font-size: 18px;
 }
