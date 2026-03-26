@@ -67,7 +67,7 @@ and bottom email. */
  /* made the .upper-text container a flexbox so that the image and write can be side
  by side. */
  .upper-text {
-    background-image: url("website-images/moon-tree.JPG");
+    background-image: url("../website-images/moon-tree.JPG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
