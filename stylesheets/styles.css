@@ -121,7 +121,7 @@ and bottom email. */
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100px;
+    width: 300px;
     gap: 16px;
     font-style: italic;
     padding-bottom: 50px;
